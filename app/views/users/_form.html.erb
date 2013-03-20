@@ -1,0 +1,16 @@
+<!-- Because edit is the same as new, we create a new kind of file called a partial that will update them both with the same information -->
+
+<%= form_for @user do |f| %>
+
+<p>
+<%= f.label :name %> <br>
+<%= f.text_field :name %>
+</p>
+
+<p>
+<%= f.label :email %> <br>
+<%= f.text_field :email %>
+</p>
+
+<%= f.submit %>
+<% end %>

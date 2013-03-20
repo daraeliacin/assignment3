@@ -2,6 +2,10 @@
 
 <ul>
 <% @users.each do |user| %>
-  <li><%= user.name %></li>
+<li>
+<%= link_to 'Profile Page',  user %>
+  <%= user.name %>
+<%= link_to '(edit)',  edit_user_path(user) %>
+</li>
 <% end %>
 </ul>
