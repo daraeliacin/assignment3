@@ -1,3 +1,5 @@
+#Dara Eliacin and Kathleen Wu
+
 # Assignment 3
 
 Your task for assignment #3 is to take this shell of an application (which we created in class week #3) and expand it with the basic functionality of a reddit-type site. Once you complete this assignment, you'll have pretty much all the skills needed to build a basic web-application (the only thing missing will be a 'modern' javascript UI).
